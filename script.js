@@ -10,7 +10,11 @@
 // **************************************************** //
 // #1 Write a function that adds two numbers together. 
 // **************************************************** //
+function aFunctionToAddTwoNumbers(num1, num2) {
+  console.log(num1 + num2);
+}
 
+aFunctionToAddTwoNumbers(1,2);
 // **************************************************** //
 // #2 Write a function that squares a number
 // **************************************************** //
