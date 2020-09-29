@@ -129,3 +129,9 @@ secretPassword();
 // numbers which are multiples of both three and five print 
 // “FizzBuzz"
 // **************************************************** //
+
+// **************************************************** //
+// #10
+// create a function the changes the color of a blue box to 
+// a red one `onClick`. This will require some html and css coding.
+// **************************************************** //
