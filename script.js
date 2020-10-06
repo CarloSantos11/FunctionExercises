@@ -99,23 +99,23 @@ aFunctionToAddTwoNumbers(1,2);
 // The secret password is “password”.
 // Prompt for success or failure
 // **************************************************** //
-function secretPassword() {
+// function secretPassword() {
 
-  var password; 
+//   var password; 
 
-  while (password != "password") {
-    password = prompt("Enter you password here", "airplane is a default value in our text box");
+//   while (password != "password") {
+//     password = prompt("Enter you password here", "airplane is a default value in our text box");
 
-    if(password == "password" ){
-      console.log("You got the password right!!");
-    } else {
-      console.log("try again");
-    }
-  }
+//     if(password == "password" ){
+//       console.log("You got the password right!!");
+//     } else {
+//       console.log("try again");
+//     }
+//   }
  
-}
+// }
 
-secretPassword();
+// secretPassword();
 
 
 // until you get the correct password keep prompting the user 
@@ -135,3 +135,12 @@ secretPassword();
 // create a function the changes the color of a blue box to 
 // a red one `onClick`. This will require some html and css coding.
 // **************************************************** //
+// var box = document.getElementById("box");
+
+// document.getElementById("box").addEventListener("click", changeColorTextAndSize); 
+
+// function changeColorTextAndSize() {
+//   document.getElementById("box").style.backgroundColor = "red"
+//   document.getElementById("box").style.color = "white"
+//   document.getElementById("box").style.fontSize = "300px"
+// }
